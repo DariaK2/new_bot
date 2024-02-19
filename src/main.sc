@@ -19,7 +19,10 @@ theme: /
             a: Привет-привет, мяу
         a: Как твое имя, мур-мяу?
         
-        
+        state: GetName
+           q: * @pymorphy.name *
+           a: Какое прекрасное имя! А я бот кот-помощник, мяу)
+           go!: /MainButtons
         
         state: NoMatchName
             event: noMatch

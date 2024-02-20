@@ -72,11 +72,11 @@ theme: /
     state: Bye
         intent!: /пока
         q!: (пока* */проща* */до новых встреч */до свидания *)
-        a: Пока-пока, мяу!\nНе забывай обо мне, если понадобится помощь)
+        a: Спасибо за разговор.\nМоя боль и страдания от создания монстра остаются со мной.\nНадеюсь, что мы смогли вместе хоть немного понять их глубину.\nВозвращайтесь, если захотите продолжить это путешествие по моей душе.
         go!: /ByeButtons
     state: ByeButtons
         inlineButtons:
-            { text: "Угощение за помощь", url: "https://whiskas.ru/" }
+            { text: "Моя история", url: "https://drive.google.com/file/d/1iZgmM-JIBGHXwWi_dQIgZhK8ilNXQJio/view" }
             { text: "Выбор за тобой", url: "https://murkote.com/ru/10-prichin-pochemu-koshki-luchshe-sobak/" }
 
     state: NoMatch

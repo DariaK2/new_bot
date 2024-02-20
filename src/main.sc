@@ -81,7 +81,7 @@ theme: /
         event!: noMatch
         random:
             a: Я не понял. Вы сказали: {{$request.query}}
-            a: Перефразируй, кожанный
+            a: Я не понял. Вы сказали: {{$request.query}}
 
     state: Match
         event!: match
